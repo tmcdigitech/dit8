@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Cascadia Code';
     src: url('fonts/CascadiaCode.woff2') format('woff2');
@@ -8,6 +9,7 @@
     src: url('fonts/CascadiaCodeItalic.woff2') format('woff2');
     font-style: italic;
 }
-code{
-    font-family: 'Cascadia Code', sans-serif;
+code, .asciinema-terminal{
+    font-family: 'Cascadia Code', monospace;
+    font-feature-settings: 'calt', 'ss01';
 }

@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/tankGame/</guid>
-      <description> Battle City 1985 Tank Moving the tank Background and Walls Randomizing the Walls Blocking Movements Tank Cannon Destroying Walls One Enemy Enemy Bullets Many Enemies Winning and Losing  </description>
+      <description> Battle City 1985       Tank Moving the tank Background and Walls Randomizing the Walls Blocking Movements Tank Cannon Destroying Walls One Enemy Enemy Bullets Many Enemies Winning and Losing  </description>
     </item>
     
     <item>
@@ -77,6 +77,19 @@ Introduces tile maps</description>
       
       <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/verticalShooter/</guid>
       <description> Twin Bee  </description>
+    </item>
+    
+    <item>
+      <title>Minesweeper</title>
+      <link>https://tmcdigitech.github.io/pgz/03walkthroughs/minesweeper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/minesweeper/</guid>
+      <description>Minesweeper originated in the 1960s but reached an enormous audience when a port was included in the standard install of Windows 3.1 in 1992.
+ Minesweeper, as seen in Windows 98
+  Here is a link to Google&amp;rsquo;s web-based implementation.
+Keeping track of the board    This game will keep track of the board state using text.
+At the start of the game, the board will only contain   (a safe square) and x (a bomb).</description>
     </item>
     
     <item>

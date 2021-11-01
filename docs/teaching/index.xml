@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language><atom:link href="https://tmcdigitech.github.io/pgz/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Project checkpoint 🡄🡆</title>
+      <link>https://tmcdigitech.github.io/pgz/teaching/projectCheckpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/teaching/projectCheckpoint/</guid>
+      <description>By Thursday Week 5, your video game should include the following features:
+ Individual Actor Sprites - the game should use your own choice of pictures Collectibles - there should be an item the player collects (e.g gems in gemcatcher) Collision events - what happens when your player crashes into walls, collectibles and other characters Active scoreboard - show the current score on screen and update in real time Internal comments - Use comments to explain what your code is doing.</description>
+    </item>
+    
+    <item>
       <title>Site URL 🡄🡆</title>
       <link>https://tmcdigitech.github.io/pgz/teaching/siteUrl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

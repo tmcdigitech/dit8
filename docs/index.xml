@@ -52,7 +52,7 @@ Screen size    Let&amp;rsquo;s start by setting the size of the screen.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/tankGame/</guid>
-      <description> Battle City 1985 Tank Moving the tank Background and Walls Randomizing the Walls Blocking Movements Tank Cannon Destroying Walls One Enemy Enemy Bullets Many Enemies Winning and Losing  </description>
+      <description> Battle City 1985       Tank Moving the tank Background and Walls Randomizing the Walls Blocking Movements Tank Cannon Destroying Walls One Enemy Enemy Bullets Many Enemies Winning and Losing  </description>
     </item>
     
     <item>
@@ -99,6 +99,19 @@ Introduces tile maps</description>
       
       <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/verticalShooter/</guid>
       <description> Twin Bee  </description>
+    </item>
+    
+    <item>
+      <title>Minesweeper</title>
+      <link>https://tmcdigitech.github.io/pgz/03walkthroughs/minesweeper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/minesweeper/</guid>
+      <description>Minesweeper originated in the 1960s but reached an enormous audience when a port was included in the standard install of Windows 3.1 in 1992.
+ Minesweeper, as seen in Windows 98
+  Here is a link to Google&amp;rsquo;s web-based implementation.
+Keeping track of the board    This game will keep track of the board state using text.
+At the start of the game, the board will only contain   (a safe square) and x (a bomb).</description>
     </item>
     
     <item>
@@ -151,6 +164,16 @@ For most programming, colors are described by the amount of red, green, and blue
       <description>When defining a function, the pieces of information that the function takes to do its job are called parameters. For example, here:
 def add(first, second): return first + second first and second are the parameters of the function add().
 When calling a function, the values given to it are called arguments.</description>
+    </item>
+    
+    <item>
+      <title>Project checkpoint 🡄🡆</title>
+      <link>https://tmcdigitech.github.io/pgz/teaching/projectCheckpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/teaching/projectCheckpoint/</guid>
+      <description>By Thursday Week 5, your video game should include the following features:
+ Individual Actor Sprites - the game should use your own choice of pictures Collectibles - there should be an item the player collects (e.g gems in gemcatcher) Collision events - what happens when your player crashes into walls, collectibles and other characters Active scoreboard - show the current score on screen and update in real time Internal comments - Use comments to explain what your code is doing.</description>
     </item>
     
     <item>
