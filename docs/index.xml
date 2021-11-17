@@ -52,7 +52,7 @@ Screen size    Let&amp;rsquo;s start by setting the size of the screen.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/tankGame/</guid>
-      <description> Battle City 1985       Tank Moving the tank Background and Walls Randomizing the Walls Blocking Movements Tank Cannon Destroying Walls One Enemy Enemy Bullets Many Enemies Winning and Losing  </description>
+      <description> Battle City 1985 Tank Moving the tank Background and Walls Randomizing the Walls Blocking Movements Tank Cannon Destroying Walls One Enemy Enemy Bullets Many Enemies Winning and Losing  </description>
     </item>
     
     <item>
@@ -102,19 +102,6 @@ Introduces tile maps</description>
     </item>
     
     <item>
-      <title>Minesweeper</title>
-      <link>https://tmcdigitech.github.io/pgz/03walkthroughs/minesweeper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/pgz/03walkthroughs/minesweeper/</guid>
-      <description>Minesweeper originated in the 1960s but reached an enormous audience when a port was included in the standard install of Windows 3.1 in 1992.
- Minesweeper, as seen in Windows 98
-  Here is a link to Google&amp;rsquo;s web-based implementation.
-Keeping track of the board    This game will keep track of the board state using text.
-At the start of the game, the board will only contain   (a safe square) and x (a bomb).</description>
-    </item>
-    
-    <item>
       <title>More walk-throughs</title>
       <link>https://tmcdigitech.github.io/pgz/03walkthroughs/moreTutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -156,6 +143,29 @@ For most programming, colors are described by the amount of red, green, and blue
     </item>
     
     <item>
+      <title>Enchanted Scepters</title>
+      <link>https://tmcdigitech.github.io/pgz/inspiration/EnchantedScepters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/inspiration/EnchantedScepters/</guid>
+      <description>by Silicon Beach Software (1984)
+In this part-illustrated, part-text adventure, you are tasked with recovering four magical sceptres (earth, fire, wind and water, of course) to save your kingdom from invasion.
+ </description>
+    </item>
+    
+    <item>
+      <title>Iago</title>
+      <link>https://tmcdigitech.github.io/pgz/inspiration/Iago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/inspiration/Iago/</guid>
+      <description>by David Reed (1984)
+Iago was a very early Othello/Reversi game, which offered excellent gameplay. You could play against a friend or a computer with three levels of difficulty, on three different sizes of board.
+It even has a special feature to hide the game if you are playing it at work and your boss is coming&amp;hellip;
+ </description>
+    </item>
+    
+    <item>
       <title>parameter</title>
       <link>https://tmcdigitech.github.io/pgz/glossary/parameter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -167,13 +177,24 @@ When calling a function, the values given to it are called arguments.</descripti
     </item>
     
     <item>
+      <title>Phrase Craze</title>
+      <link>https://tmcdigitech.github.io/pgz/inspiration/PhraseCraze/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/inspiration/PhraseCraze/</guid>
+      <description>by Brad Pettit (1986)
+Borrowing heavily from the TV game show Wheel of Fortune, Phrase Craze offers up to four players the chance to relive the thrill of being on the set, complete with game board, wheel, and charming host. You could also modify the PhraseFile to create your own puzzles.
+ </description>
+    </item>
+    
+    <item>
       <title>Project checkpoint 🡄🡆</title>
       <link>https://tmcdigitech.github.io/pgz/teaching/projectCheckpoint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tmcdigitech.github.io/pgz/teaching/projectCheckpoint/</guid>
-      <description>By Thursday Week 5, your video game should include the following features:
- Individual Actor Sprites - the game should use your own choice of pictures Collectibles - there should be an item the player collects (e.g gems in gemcatcher) Collision events - what happens when your player crashes into walls, collectibles and other characters Active scoreboard - show the current score on screen and update in real time Internal comments - Use comments to explain what your code is doing.</description>
+      <description>By end of Week 5, your video game should include the following features:
+ Individual Actor Spritesthe game should use your own choice of pictures Collectiblesthere should be an item the player collects (e.g gems in gemcatcher) Collision eventswhat happens when your player crashes into walls, collectibles and other characters Active scoreboardshow the current score on screen and update in real time Internal commentsUse comments to explain what your code is doing.</description>
     </item>
     
     <item>
@@ -205,6 +226,17 @@ After you have been writing code for a while, you may find that a standard Pytho
       <guid>https://tmcdigitech.github.io/pgz/01gettingStarted/fileStructure/</guid>
       <description>Each of your projects should live in its own folder somewhere sensible (like in a Digital Tech folder in your OneDrive!).
 project/ ├── game.py │ ├── images/ │ ├── someImage.jpg │ ├── anotherImage.jpg │ └── ... # sprites, tiles and other image files │ ├── fonts/ │ └── ... # any font files │ ├── sounds/ │ └── ... # any sound files │ └── music/ └── ... # any music files You don&amp;rsquo;t need to have those folders unless you have something to put in them.</description>
+    </item>
+    
+    <item>
+      <title>StuntCopter</title>
+      <link>https://tmcdigitech.github.io/pgz/inspiration/StuntCopter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/inspiration/StuntCopter/</guid>
+      <description>by Duane Blehm (1986)
+Part of the genius of this game is how simple it is. Your aim is to drop people out of a helicopter onto the cart, carefully avoiding the rider and the horse. The further up you drop from, the more points you get. See what happens when you drop someone through the clouds&amp;hellip;
+If you go to Options &amp;gt; OffScreen in the menu, you can also see the complete sprite sheet for the game; a nice touch.</description>
     </item>
     
     <item>
