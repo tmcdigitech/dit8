@@ -1,7 +1,7 @@
 ---
 title: Project checkpoint 🡄🡆
 outputs: ['Reveal']
-draft: True
+draft: true
 layout: list
 reveal_hugo:
     theme: blood
