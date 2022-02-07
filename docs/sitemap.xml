@@ -2,76 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/gemCatcher/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/gemCatcher/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/01gettingStarted/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/02basics/python/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/01gettingStarted/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/02basics/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/02basics/python/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/ninjaRunner/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/02basics/pygameZero/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/software/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/tankGame/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/basicMovement/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/chaseGame/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/02basics/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/mazeGame/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/ninjaRunner/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/shootingGame/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/02basics/pygameZero/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/racingGame/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/using/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/verticalShooter/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/programs/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/tankGame/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/moreTutorials/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/inspiration/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/chaseGame/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/troubleshooting/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/mazeGame/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/reference/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/shootingGame/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/teaching/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/racingGame/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/verticalShooter/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/argument/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/glossary/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/categories/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/moreTutorials/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/coordinate/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/inspiration/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/color/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/troubleshooting/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/inspiration/EnchantedScepters/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/reference/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/inspiration/Iago/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/teaching/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/parameter/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/inspiration/PhraseCraze/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/glossary/argument/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/teaching/projectCheckpoint/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/categories/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/teaching/siteUrl/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/glossary/coordinate/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/01gettingStarted/installation/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/glossary/color/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/01gettingStarted/fileStructure/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/inspiration/EnchantedScepters/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/inspiration/StuntCopter/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/inspiration/Iago/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/tags/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/glossary/parameter/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/tuple/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/inspiration/PhraseCraze/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/troubleshooting/01whybroken/</loc>
+    <loc>https://tmcdigitech.github.io/dit8/teaching/projectCheckpoint/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/teaching/siteUrl/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/01gettingStarted/software/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/01gettingStarted/fileStructure/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/gameDesign/inspiration/StuntCopter/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/tags/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/glossary/tuple/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/troubleshooting/01whybroken/</loc>
   </url>
 </urlset>

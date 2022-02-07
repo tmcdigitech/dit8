@@ -1,6 +1,6 @@
-baseURL = 'https://tmcdigitech.github.io/pgz/'
+baseURL = 'https://tmcdigitech.github.io/dit8/'
 languageCode = 'en-au'
-title = 'TMC - Pygame Zero'
+title = 'TMC - 8 Digital Tech'
 theme = ["hugo-geekdoc", "reveal-hugo"]
 
 pluralizeListTitles = false
