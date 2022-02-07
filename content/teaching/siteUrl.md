@@ -9,4 +9,4 @@ reveal_hugo:
 ---
 Learn about Pygame Zero here:
 
-<span style="font-size: 130%; color: #ffc000;">`https://tmcdigitech.github.io/pgz/`</span>
+<span style="font-size: 130%; color: #ffc000;">`https://tmcdigitech.github.io/dit8/`</span>

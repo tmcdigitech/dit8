@@ -232,23 +232,13 @@ Borrowing heavily from the TV game show Wheel of Fortune, Phrase Craze offers up
     </item>
     
     <item>
-      <title>Project checkpoint 🡄🡆</title>
-      <link>https://tmcdigitech.github.io/dit8/teaching/projectCheckpoint/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/dit8/teaching/projectCheckpoint/</guid>
-      <description>By end of Week 5, your video game should include the following features:
- Individual Actor Spritesthe game should use your own choice of pictures Collectiblesthere should be an item the player collects (e.g gems in gemcatcher) Collision eventswhat happens when your player crashes into walls, collectibles and other characters Active scoreboardshow the current score on screen and update in real time Internal commentsUse comments to explain what your code is doing.</description>
-    </item>
-    
-    <item>
       <title>Site URL 🡄🡆</title>
       <link>https://tmcdigitech.github.io/dit8/teaching/siteUrl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tmcdigitech.github.io/dit8/teaching/siteUrl/</guid>
       <description>Learn about Pygame Zero here:
-https://tmcdigitech.github.io/pgz/</description>
+https://tmcdigitech.github.io/dit8/</description>
     </item>
     
     <item>
