@@ -14,8 +14,6 @@
   </url><url>
     <loc>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/software/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/dit8/robotics/basicMovement/</loc>
-  </url><url>
     <loc>https://tmcdigitech.github.io/dit8/gameDesign/</loc>
   </url><url>
     <loc>https://tmcdigitech.github.io/dit8/gameDesign/02basics/</loc>
@@ -34,7 +32,11 @@
   </url><url>
     <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/chaseGame/</loc>
   </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/structure/</loc>
+  </url><url>
     <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/mazeGame/</loc>
+  </url><url>
+    <loc>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/</loc>
   </url><url>
     <loc>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/shootingGame/</loc>
   </url><url>

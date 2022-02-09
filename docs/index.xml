@@ -36,16 +36,6 @@ Aposteriori: Introduction to Python</description>
     </item>
     
     <item>
-      <title>Basic Movement</title>
-      <link>https://tmcdigitech.github.io/dit8/robotics/basicMovement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/dit8/robotics/basicMovement/</guid>
-      <description>This example project shows how you can make a robotic vehicle drive for a given distance or turn by a given angle. Check out the DriveBase class for tips and tricks for precise movements.
-Example program    #!/usr/bin/env pybricks-micropython &amp;#34;&amp;#34;&amp;#34; Example LEGO® MINDSTORMS® EV3 Robot Educator Driving Base Program ----------------------------------------------------------------- This program requires LEGO® EV3 MicroPython v2.0. Download: https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3 Building instructions can be found at: https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot &amp;#34;&amp;#34;&amp;#34; from pybricks.</description>
-    </item>
-    
-    <item>
       <title>Ninja Runner</title>
       <link>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/ninjaRunner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,6 +99,16 @@ Programs are organized into project folders, as shown in Figure 8. A project fol
     </item>
     
     <item>
+      <title>Structure of program</title>
+      <link>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/structure/</guid>
+      <description>For obscure, historical reasons, the first line must look exactly like this. If it doesn&amp;rsquo;t, your program won&amp;rsquo;t work at all. Accidentally adding a blank line above or a space before is a common reason your code will break.
+1  #!/usr/bin/env pybricks-micropython    The next lines are some explanatory text about what the program in this file does. It is a good habit to do this in Python, but your program will work if you don&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
       <title>Maze game</title>
       <link>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/mazeGame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -116,6 +116,15 @@ Programs are organized into project folders, as shown in Figure 8. A project fol
       <guid>https://tmcdigitech.github.io/dit8/gameDesign/03walkthroughs/mazeGame/</guid>
       <description>Maze game
 Introduces tile maps</description>
+    </item>
+    
+    <item>
+      <title>Movement</title>
+      <link>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/</guid>
+      <description>Set up    # Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) # Initialize the drive base. robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104) Driving for a given distance or by an angle    Use the following commands to drive a given distance, or turn by a given angle. This is measured using the internal rotation sensors. Because wheels may slip while moving, the travelled distance and angle are only estimates.</description>
     </item>
     
     <item>

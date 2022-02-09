@@ -1,6 +1,7 @@
 ---
 title: Basic Movement
-weight: 2
+draft: true
+weight: 5
 ---
 This example project shows how you can make a robotic vehicle drive for a given distance or turn by a given angle. Check out the [DriveBase](https://pybricks.com/ev3-micropython/robotics.html#pybricks.robotics.DriveBase) class for tips and tricks for precise movements.
 

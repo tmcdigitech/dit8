@@ -6,15 +6,5 @@
     <description>Recent content in Robotics on TMC - 8 Digital Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit8/robotics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Basic Movement</title>
-      <link>https://tmcdigitech.github.io/dit8/robotics/basicMovement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/dit8/robotics/basicMovement/</guid>
-      <description>This example project shows how you can make a robotic vehicle drive for a given distance or turn by a given angle. Check out the DriveBase class for tips and tricks for precise movements.
-Example program    #!/usr/bin/env pybricks-micropython &amp;#34;&amp;#34;&amp;#34; Example LEGO® MINDSTORMS® EV3 Robot Educator Driving Base Program ----------------------------------------------------------------- This program requires LEGO® EV3 MicroPython v2.0. Download: https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3 Building instructions can be found at: https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot &amp;#34;&amp;#34;&amp;#34; from pybricks.</description>
-    </item>
-    
   </channel>
 </rss>
