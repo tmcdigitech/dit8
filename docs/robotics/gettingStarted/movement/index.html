@@ -10,7 +10,10 @@
 
 
 
-    <meta name="description" content="Set up    # Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) # Initialize the drive base. robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104) Driving for a given distance or by an angle    Use the following commands to drive a given distance, or turn by a given angle. This is measured using the internal rotation sensors. Because wheels may slip while moving, the travelled distance and angle are only estimates.">
+    <meta name="description" content="adapted from PyBricks
+Set up    Having to control the two motors independently to move our robot would involve a lot of maths and be annoying and prone to error. Instead, we can use the DriveBase class to make driving our robot around a lot simpler.
+We still need to initialize the motors:
+# Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) But then we write this to create our DriveBase:">
 
 
 
@@ -23,7 +26,10 @@
     
 
     <meta property="og:title" content="Movement" />
-<meta property="og:description" content="Set up    # Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) # Initialize the drive base. robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104) Driving for a given distance or by an angle    Use the following commands to drive a given distance, or turn by a given angle. This is measured using the internal rotation sensors. Because wheels may slip while moving, the travelled distance and angle are only estimates." />
+<meta property="og:description" content="adapted from PyBricks
+Set up    Having to control the two motors independently to move our robot would involve a lot of maths and be annoying and prone to error. Instead, we can use the DriveBase class to make driving our robot around a lot simpler.
+We still need to initialize the motors:
+# Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) But then we write this to create our DriveBase:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/" /><meta property="article:section" content="robotics" />
 
@@ -32,7 +38,10 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Movement"/>
-<meta name="twitter:description" content="Set up    # Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) # Initialize the drive base. robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104) Driving for a given distance or by an angle    Use the following commands to drive a given distance, or turn by a given angle. This is measured using the internal rotation sensors. Because wheels may slip while moving, the travelled distance and angle are only estimates."/>
+<meta name="twitter:description" content="adapted from PyBricks
+Set up    Having to control the two motors independently to move our robot would involve a lot of maths and be annoying and prone to error. Instead, we can use the DriveBase class to make driving our robot around a lot simpler.
+We still need to initialize the motors:
+# Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) But then we write this to create our DriveBase:"/>
 
 
     <script src="/dit8/js/darkmode-ce906ea916.min.js"></script>
@@ -66,7 +75,7 @@
     "name": "Movement",
     "headline": "Movement",
     "alternativeHeadline": "",
-    "description": "Set up    # Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) # Initialize the drive base. robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104) Driving for a given distance or by an angle    Use the following commands to drive a given distance, or turn by a given angle. This is measured using the internal rotation sensors. Because wheels may slip while moving, the travelled distance and angle are only estimates.",
+    "description": "adapted from PyBricks\nSet up    Having to control the two motors independently to move our robot would involve a lot of maths and be annoying and prone to error. Instead, we can use the DriveBase class to make driving our robot around a lot simpler.\nWe still need to initialize the motors:\n# Initialize the motors. left_motor = Motor(Port.B) right_motor = Motor(Port.C) But then we write this to create our DriveBase:",
     "inLanguage": "en",
     "isFamilyFriendly": "true",
     "mainEntityOfPage": {
@@ -90,7 +99,7 @@
         }
     },
     "url" : "https:\/\/tmcdigitech.github.io\/dit8\/robotics\/gettingStarted\/movement\/",
-    "wordCount" : "251",
+    "wordCount" : "506",
     "genre" : [ ]
 }
 </script>
@@ -1326,64 +1335,124 @@
 
     <article class="gdoc-markdown gdoc-markdown__align--left">
         <h1>Movement</h1>
-        <div class="gdoc-page__anchorwrap">
-    <h2 id="set-up">
+        <p><em>adapted from <a class="gdoc-markdown__link" href="https://docs.pybricks.com/en/stable/robotics.html">PyBricks</a></em></p>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="set-up">
         Set up
         <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#set-up" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Set up" href="#set-up">
             <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
-    </h2>
-</div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Initialize the motors.</span>
+    </h1>
+</div><p>Having to control the two motors independently to move our robot would involve a lot of maths and be annoying and prone to error.
+Instead, we can use the <code>DriveBase</code> class to make driving our robot around a lot simpler.</p>
+<p>We still need to initialize the motors:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Initialize the motors.</span>
 <span class="n">left_motor</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">B</span><span class="p">)</span>
 <span class="n">right_motor</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">C</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Initialize the drive base.</span>
+</code></pre></div><p>But then we write this to create our DriveBase:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Initialize the drive base.</span>
 <span class="n">robot</span> <span class="o">=</span> <span class="n">DriveBase</span><span class="p">(</span><span class="n">left_motor</span><span class="p">,</span> <span class="n">right_motor</span><span class="p">,</span> <span class="n">wheel_diameter</span><span class="o">=</span><span class="mf">55.5</span><span class="p">,</span> <span class="n">axle_track</span><span class="o">=</span><span class="mi">104</span><span class="p">)</span>
-</code></pre></div><div class="gdoc-page__anchorwrap">
-    <h2 id="driving-for-a-given-distance-or-by-an-angle">
+</code></pre></div><p>By specifying the dimensions of your robot, this class makes it easy to drive a given distance in millimeters or turn by a given number of degrees.</p>
+<p><strong>Positive</strong> distances, radii, or drive speeds mean driving <strong>forward</strong>. <strong>Negative</strong> means <strong>backward</strong>.</p>
+<p><strong>Positive</strong> angles and turn rates mean turning <strong>right</strong>. <strong>Negative</strong> means <strong>left</strong>. So when viewed from the top, positive means clockwise and negative means counterclockwise.</p>
+<p>Parameters:</p>
+<ul>
+<li><code>left_motor</code>, the motor that drives the left wheel.</li>
+<li><code>right_motor</code>, the motor that drives the right wheel.</li>
+<li><code>wheel_diameter</code>, diameter of the wheels in <em>millimetres</em> (mm).</li>
+<li><code>axle_track</code>, distance between the points where both wheels touch the ground, in <em>millimetres</em> (mm).</li>
+</ul>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="driving-for-a-given-distance-or-by-an-angle">
         Driving for a given distance or by an angle
         <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#driving-for-a-given-distance-or-by-an-angle" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Driving for a given distance or by an angle" href="#driving-for-a-given-distance-or-by-an-angle">
             <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
-    </h2>
+    </h1>
 </div><p>Use the following commands to drive a given distance, or turn by a given angle.
 This is measured using the internal rotation sensors. Because wheels may slip while moving, the travelled distance and angle are only estimates.</p>
+<blockquote class="gdoc-hint info">
+  <p>If you initialized your robot using the line:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">robot</span> <span class="o">=</span> <span class="n">DriveBase</span><span class="p">(</span><span class="n">left_motor</span><span class="p">,</span> <span class="n">right_motor</span><span class="p">,</span> <span class="n">wheel_diameter</span><span class="o">=</span><span class="mf">55.5</span><span class="p">,</span> <span class="n">axle_track</span><span class="o">=</span><span class="mi">104</span><span class="p">)</span>
+</code></pre></div><p>you will control it using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">robot</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">robot</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="o">-</span><span class="mi">45</span><span class="p">)</span>
+</code></pre></div><p>and so on. If instead you&rsquo;d written:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">superchamp</span> <span class="o">=</span> <span class="n">DriveBase</span><span class="p">(</span><span class="n">left_motor</span><span class="p">,</span> <span class="n">right_motor</span><span class="p">,</span> <span class="n">wheel_diameter</span><span class="o">=</span><span class="mf">55.5</span><span class="p">,</span> <span class="n">axle_track</span><span class="o">=</span><span class="mi">104</span><span class="p">)</span>
+</code></pre></div><p>you will control it using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">superchamp</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">superchamp</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="o">-</span><span class="mi">45</span><span class="p">)</span>
+</code></pre></div><p>and so on.</p>
+
+</blockquote>
+
+<hr>
 <div class="gdoc-page__anchorwrap">
-    <h3 id="straightdistance">
+    <h2 id="straightdistance">
         <code>straight(distance)</code>
         <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#straightdistance" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor straight(distance)" href="#straightdistance">
             <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
-    </h3>
-</div><p>Drives straight for a given distance and then stops.
-Parameters:</p>
+    </h2>
+</div><p>Drives straight for a given distance and then stops.</p>
+<p>Parameters:</p>
 <ul>
-<li><code>distance</code>, distance to travel in <em>millimetres</em>.</li>
+<li><code>distance</code>, distance to travel in <em>millimetres</em> (mm).</li>
 </ul>
+<hr>
 <div class="gdoc-page__anchorwrap">
-    <h3 id="turnangle">
+    <h2 id="turnangle">
         <code>turn(angle)</code>
         <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#turnangle" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor turn(angle)" href="#turnangle">
             <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
-    </h3>
-</div><p>Turns in place by a given angle and then stops.
-Parameters:</p>
+    </h2>
+</div><p>Turns in place by a given angle and then stops.</p>
+<p>Parameters:</p>
 <ul>
-<li><code>angle</code>, angle to turn in <em>degrees</em>.</li>
+<li><code>angle</code>, angle to turn in <em>degrees</em> (°).</li>
 </ul>
+<hr>
 <div class="gdoc-page__anchorwrap">
-    <h3 id="drivedrive_speed-turn_rate">
+    <h2 id="curveradius-angle">
+        <code>curve(radius, angle)</code>
+        <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#curveradius-angle" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor curve(radius, angle)" href="#curveradius-angle">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>Drives an arc along a circle of a given radius, by a given angle.</p>
+<p>Parameters:
+radius (dimension: mm) – Radius of the circle.
+angle (angle: deg) – Angle along the circle.</p>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="drive-forever">
+        Drive forever
+        <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#drive-forever" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Drive forever" href="#drive-forever">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div><div class="gdoc-page__anchorwrap">
+    <h2 id="drivedrive_speed-turn_rate">
         <code>drive(drive_speed, turn_rate)</code>
         <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#drivedrive_speed-turn_rate" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor drive(drive_speed, turn_rate)" href="#drivedrive_speed-turn_rate">
             <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
-    </h3>
+    </h2>
 </div><p>Starts driving at the specified speed and turn rate. Both values are measured at the center point between the wheels of the robot. It keeps going until you use stop() or change course by using drive() again. For example, you can drive until a sensor is triggered and then stop or turn around.</p>
 <p>Parameters:</p>
 <ul>
-<li>drive_speed (speed: mm/s) – Speed of the robot.</li>
-<li>turn_rate (rotational speed: deg/s) – Turn rate of the robot.</li>
+<li><code>drive_speed</code>, speed of the robot in millimetres per second (mm/s).</li>
+<li><code>turn_rate</code>, turn rate of the robot in degrees per second (°/s).</li>
 </ul>
+<hr>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="stop">
+        <code>stop()</code>
+        <a data-clipboard-text="https://tmcdigitech.github.io/dit8/robotics/gettingStarted/movement/#stop" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor stop()" href="#stop">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>Stops the robot by letting the motors spin freely.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1">## Example Movement Code </span>
 
 <span class="c1"># Go forward and backwards for one metre.</span>
