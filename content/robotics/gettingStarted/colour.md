@@ -16,27 +16,31 @@ Intensity
 – **Ambient Light**: Measures the strength of the light that enters the sensor from the environment. (0=very dark and 100=very light)
 
 ## Example Code
-```python
+{{< highlight python "lineNos=table,lineNoStart=1,hl_lines=3-5 7" >}}
 #!/usr/bin/env pybricks-micropython
 from pybricks.hubs import EV3Brick
 from pybricks.ev3devices import Motor
 from pybricks.parameters import Port
 from pybricks.robotics import DriveBase
 from pybricks.tools import wait
+from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor, InfraredSensor, UltrasonicSensor, GyroSensor)
+
 # Initialize the EV3 Brick.
 ev3 = EV3Brick()
-from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
-InfraredSensor, UltrasonicSensor, GyroSensor)
 
 # Initialize the motors.
 left_motor = Motor(Port.B)
 right_motor = Motor(Port.C)
 
-# Initialize the sensors.
-line_sensor = ColorSensor(Port.S1)
-
 # Initialize the drive base.
 robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
+
+{{< /highlight >}}
+
+Here we initialize what sensors we would like by telling the EV3 what port it is plugged into and what we would like to call it when referring to it in our code.
+{{< highlight python "lineNos=table,lineNoStart=18,hl_lines=2" >}}
+# Initialize the sensors.
+line_sensor = ColorSensor(Port.S1)
 
 # Go forward while reflected light is less than 10.
 ev3.speaker.beep()
@@ -45,5 +49,4 @@ while line_sensor.reflection() < 10:
     wait(10)
 robot.stop()
 
-```
 
