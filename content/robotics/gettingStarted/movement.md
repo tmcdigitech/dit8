@@ -111,6 +111,7 @@ robot.turn(-360)
 robot.stop()
 
 # this stops any active movement and actively brakes the motor 
+# from pybricks.parameters import Port, Stop
 robot.stop(Stop.BRAKE)
 
 # this stops any active movement and leaves the motors on coast

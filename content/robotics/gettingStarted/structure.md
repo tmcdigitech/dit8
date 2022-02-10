@@ -35,7 +35,7 @@ which are used by lots of different people, but not all the time.
 {{< highlight python "lineNos=table,lineNoStart=14" >}}
 from pybricks.hubs import EV3Brick 
 from pybricks.ev3devices import Motor 
-from pybricks.parameters import Port 
+from pybricks.parameters import Port, Stop
 from pybricks.robotics import DriveBase 
 from pybricks.tools import wait 
 from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor, InfraredSensor, UltrasonicSensor, GyroSensor) 
