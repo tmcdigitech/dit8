@@ -9,7 +9,7 @@ A sensor lets an EV3 program measure and collect data about is surroundings. The
 has been pressed or released.
 
 # Example Code
-```python
+{{< highlight python "lineNos=table,lineNoStart=1" >}}
 #!/usr/bin/env pybricks-micropython
 from pybricks import ev3brick as brick
 from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
@@ -33,5 +33,5 @@ robot.drive(1000, 0)
 while not touch_sensor.pressed():
     wait(1)
 robot.stop()
-```
+
 
