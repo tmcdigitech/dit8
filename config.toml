@@ -10,6 +10,8 @@ pygmentsUseClasses = true
 # pygmentsCodeFences = true
 disablePathToLower = true
 
+publishDir = "docs"
+
 [outputFormats.Reveal]
 baseName = "index"
 mediaType = "text/html"
