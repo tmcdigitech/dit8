@@ -1,7 +1,7 @@
 ---
 title: 8 DigiTech
 ---
-Welcome to Year 8 Digital Technology!
+Welcome to Year 8 Digital Technologies!
 
 This semester we will work on two broad topics:
 - autonomous robots using LEGO Mindstorms EV3s
