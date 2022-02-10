@@ -1,22 +1,26 @@
 ---
-title: Colour Sensor
+title: Color Sensor
 weight: 8
 ---
 *adapted from [PyBricks](https://docs.pybricks.com/en/stable/robotics.html)*
-{{< figure src="https://pybricks.com/ev3-micropython/_images/sensor_ev3_color.png" title="Colour Sensor" >}}
+{{< figure src="https://pybricks.com/ev3-micropython/_images/sensor_ev3_color.png" title="Color Sensor" >}}
 
-A sensor lets an EV3 program measure and collect data about is surroundings. The Colour Sensor can detect colour and reflected light.
+{{< hint info >}}
+In almost all programming, American spellings are used. So as programmers we use **colors**, even though we would normally spell the word **colours**.
+{{< /hint >}}
 
-Three modes: **Colour**, **Reflected Light Intensity** and **Ambient Light**
-Intensity
-– **Color Mode**: Recognizes 7 colours (black, brown, blue, green, yellow, red, white) and No Color
+A sensor lets an EV3 program measure and collect data about is surroundings. The Color Sensor can detect color and reflected light.
+
+Three modes: **Color**, **Reflected Light** intensity and **Ambient Light** intensity.
+
+– **Color Mode**: Recognizes 7 colors (black, brown, blue, green, yellow, red, white) and No Color
 
 – **Reflected Light**: Measures the intensity of the light reflected back from a lamp that emits a red light. (0=very dark and 100=very light)
 
 – **Ambient Light**: Measures the strength of the light that enters the sensor from the environment. (0=very dark and 100=very light)
 
 ## Example Code
-```python
+{{< highlight python >}}
 #!/usr/bin/env pybricks-micropython
 from pybricks.hubs import EV3Brick
 from pybricks.ev3devices import Motor
@@ -44,6 +48,4 @@ robot.drive(100,0)
 while line_sensor.reflection() < 10:
     wait(10)
 robot.stop()
-
-```
-
+{{< /highlight >}}
