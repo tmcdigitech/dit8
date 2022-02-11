@@ -116,4 +116,8 @@ robot.stop(Stop.BRAKE)
 
 # this stops any active movement and leaves the motors on coast
 robot.stop(Stop.COAST)
+
+# Stops the motor and actively holds it at its current angle. Make sure you include Stop in 
+# from pybricks.parameters import Port, Stop
+robot.stop(Stop.HOLD)
 ```
