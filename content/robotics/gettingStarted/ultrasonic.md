@@ -6,10 +6,10 @@ weight: 6
 {{< figure src="https://pybricks.com/ev3-micropython/_images/sensor_ev3_ultrasonic.png" title="Ultrasonic Sensor" >}}
 
 The Ultrasonic Sensor is digital sensor that can measure the distance to an Object in front of it. It does this by sending out hight frequency sound waves and measuring how long it takes the sound to reflect back to the sensor. The sound frequency is too high for you to hear. 
-Distance to an object can be measured in either inches or centimeters. This allows you to program your robot to stop at a certain distance from a wall.
+Distance to an object is measured in millimeters (mm). This allows you to program your robot to stop at a certain distance from a wall.
 
 # Example Code
-{{< highlight python "lineNos=table,lineNoStart=1, hl_lines=25," >}}
+{{< highlight python "lineNos=table,lineNoStart=1, hl_lines=25" >}}
 #!/usr/bin/env pybricks-micropython
 
 """
