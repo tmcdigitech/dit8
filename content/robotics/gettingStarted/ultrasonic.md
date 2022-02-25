@@ -9,7 +9,7 @@ The Ultrasonic Sensor is digital sensor that can measure the distance to an Obje
 Distance to an object can be measured in either inches or centimeters. This allows you to program your robot to stop at a certain distance from a wall.
 
 # Example Code
-{{< highlight python "lineNos=table,lineNoStart=1, hl-lines=37" >}}
+{{< highlight python "lineNos=table,lineNoStart=1, hl_lines=37" >}}
 #!/usr/bin/env pybricks-micropython
 
 """
