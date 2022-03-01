@@ -1,4 +1,4 @@
 ---
 title: Assessment tasks
-weight: 0
+weight: 100
 ---
