@@ -11,22 +11,25 @@ has been pressed or released.
 # Example Code
 {{< highlight python "lineNos=table,lineNoStart=1" >}}
 #!/usr/bin/env pybricks-micropython
-from pybricks import ev3brick as brick
-from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
-InfraredSensor, UltrasonicSensor, GyroSensor)
-from pybricks.parameters import (Port, Stop, Direction, Button, Color,
-SoundFile, ImageFile, Align)
-from pybricks.tools import print, wait, StopWatch
+from pybricks.hubs import EV3Brick
+from pybricks.ev3devices import Motor
+from pybricks.parameters import Port, Stop
 from pybricks.robotics import DriveBase
+from pybricks.tools import wait
+from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor, InfraredSensor, UltrasonicSensor, GyroSensor)
+
+# Initialize the EV3 Brick.
+ev3 = EV3Brick()
+
+# Initialize the motors.
+left_motor = Motor(Port.B)
+right_motor = Motor(Port.C)
+
+# Initialize the drive base.
+robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
 
 # Initialize Touch Sensor
 touch_sensor = TouchSensor(Port.S1)
-
-# Initialize two motors and a drive base
-left = Motor(Port.B)
-right = Motor(Port.C)
-robot = DriveBase(left, right, 56, 114)
-
 
 # Drive forward until touch sensor is pressed
 robot.drive(1000, 0)
