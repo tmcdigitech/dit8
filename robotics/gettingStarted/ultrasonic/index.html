@@ -341,8 +341,8 @@ Example Code
 </span><span class=lnt>12
 </span><span class=lnt>13
 </span><span class=lnt>14
-</span><span class=lnt>15
-</span><span class=lnt>16
+</span><span class=hl><span class=lnt>15
+</span></span><span class=lnt>16
 </span><span class=lnt>17
 </span><span class=lnt>18
 </span><span class=lnt>19
@@ -353,8 +353,8 @@ Example Code
 </span><span class=lnt>24
 </span><span class=lnt>25
 </span><span class=lnt>26
-</span><span class=hl><span class=lnt>27
-</span></span><span class=lnt>28
+</span><span class=lnt>27
+</span><span class=lnt>28
 </span><span class=lnt>29
 </span><span class=lnt>30
 </span><span class=lnt>31
@@ -391,7 +391,7 @@ Example Code
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># Initialize the Ultrasonic Sensor. It is used to detect</span>
 </span></span><span class=line><span class=cl><span class=c1># obstacles as the robot drives around.</span>
-</span></span><span class=line><span class=cl><span class=n>obstacle_sensor</span> <span class=o>=</span> <span class=n>UltrasonicSensor</span><span class=p>(</span><span class=n>Port</span><span class=o>.</span><span class=n>S4</span><span class=p>)</span>
+</span></span><span class="line hl"><span class=cl><span class=n>obstacle_sensor</span> <span class=o>=</span> <span class=n>UltrasonicSensor</span><span class=p>(</span><span class=n>Port</span><span class=o>.</span><span class=n>S4</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># Initialize two motors with default settings on Port B and Port C.</span>
 </span></span><span class=line><span class=cl><span class=c1># These will be the left and right motors of the drive base.</span>
@@ -403,7 +403,7 @@ Example Code
 </span></span><span class=line><span class=cl><span class=c1># move at the correct speed when you give a motor command.</span>
 </span></span><span class=line><span class=cl><span class=c1># The axle track is the distance between the points where the wheels</span>
 </span></span><span class=line><span class=cl><span class=c1># touch the ground.</span>
-</span></span><span class="line hl"><span class=cl><span class=n>robot</span> <span class=o>=</span> <span class=n>DriveBase</span><span class=p>(</span><span class=n>left_motor</span><span class=p>,</span> <span class=n>right_motor</span><span class=p>,</span> <span class=n>wheel_diameter</span><span class=o>=</span><span class=mf>55.5</span><span class=p>,</span> <span class=n>axle_track</span><span class=o>=</span><span class=mi>104</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>robot</span> <span class=o>=</span> <span class=n>DriveBase</span><span class=p>(</span><span class=n>left_motor</span><span class=p>,</span> <span class=n>right_motor</span><span class=p>,</span> <span class=n>wheel_diameter</span><span class=o>=</span><span class=mf>55.5</span><span class=p>,</span> <span class=n>axle_track</span><span class=o>=</span><span class=mi>104</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># Play a sound to tell us when we are ready to start moving</span>
 </span></span><span class=line><span class=cl><span class=n>ev3</span><span class=o>.</span><span class=n>speaker</span><span class=o>.</span><span class=n>beep</span><span class=p>()</span>
