@@ -12,16 +12,6 @@ Distance to an object is measured in millimeters (mm). This allows you to progra
 {{< highlight python "lineNos=table,lineNoStart=1, hl_lines=25" >}}
 #!/usr/bin/env pybricks-micropython
 
-"""
-Example LEGO® MINDSTORMS® EV3 Robot Educator Ultrasonic Sensor Driving Base Program
------------------------------------------------------------------------------------
-
-This program requires LEGO® EV3 MicroPython v2.0.
-Download: https://education.lego.com/en-us/support/mindstorms-ev3/python-for-ev3
-
-Building instructions can be found at:
-https://education.lego.com/en-us/support/mindstorms-ev3/building-instructions#robot
-"""
 
 from pybricks.hubs import EV3Brick
 from pybricks.ev3devices import Motor, UltrasonicSensor
