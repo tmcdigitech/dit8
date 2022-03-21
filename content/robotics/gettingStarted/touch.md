@@ -5,7 +5,7 @@ weight: 6
 *adapted from [PyBricks](https://docs.pybricks.com/en/stable/robotics.html)*
 {{< figure src="https://pybricks.com/ev3-micropython/_images/sensor_ev3_touch.png" title="Touch Sensor" >}}
 
-A sensor lets an EV3 program measure and collect data about is surroundings. The Touch Sensor can detect when the sensor’s red button
+A sensor lets an EV3 program measure and collect data about its surroundings. The Touch Sensor detects when its red button
 has been pressed or released.
 
 # Example Code

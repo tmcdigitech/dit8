@@ -55,4 +55,3 @@ Flexible Thinkers
 
 Disciplined
 : Motivated learner who demonstrates initiative by following a project management process to complete a project
-
