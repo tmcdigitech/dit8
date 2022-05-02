@@ -1,6 +1,7 @@
 ---
 title: Pygame Zero
-weight: 2
+weight: 3
+draft: true
 ---
 
 Let's get a simple game happening, a bit at a time, so you can see how you might go about it yourself.
