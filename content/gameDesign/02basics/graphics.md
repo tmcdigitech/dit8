@@ -8,7 +8,7 @@ To create graphics for our games we will use the Pygame Zero library. You will f
 The smallest square that can be displayed on a monitor is called a pixel. This diagram shows a close-up view of a window that is 40 pixels wide and 40 pixels high. At normal size you will not see the grid lines.
 
 Model View Controller
-{{< figure src="grid.png" title="Model View Controller" >}}
+{{< figure src="02basics/grid.png" title="Model View Controller" >}}
 Fig. 4.1 Model View Controller
 
 We can refer to any pixel by giving two co-ordinates, (x,y) Make sure you understand co-ordinates before moving on because everything we do in Pygame Zero will use it. (In maths this called a ‘Cartesian coordinate system’).
