@@ -5,7 +5,27 @@ title: Structuring your files
 Each of your projects should live in its own folder somewhere sensible (like in a Digital Tech folder in your OneDrive!).
 
 ```
-project/
+Digital Tech/
+│
+├── firstGame/
+│   └── game.py
+│
+├── secondGame/
+│   └── game.py
+│
+├── thirdGame/
+│   └── game.py
+│
+└── fourthGame/
+    └── game.py
+```
+
+Within each of those folders, there will be python file with your game code in it,
+but there may well be other files and folders as well. Here is an example of a more
+complex project:
+
+```
+myGame/
 ├── game.py
 │
 ├── images/

@@ -3,6 +3,10 @@ title: Python
 weight: 1
 ---
 
-If you are new to Python, here is an good interactive guide you can get started with:
+If you are new to Python, check out this [interactive guide](https://aposteriori.trinket.io/introduction-to-python).
 
-[Aposteriori: Introduction to Python](https://aposteriori.trinket.io/introduction-to-python)
+If you're feeling  you can get up to speed with:
+
+[Aposteriori: Introduction to Python]
+
+There is also an excellent reference to key ideas, with working examples, here

@@ -1,4 +1,4 @@
 ---
 title: Learning the basics
-weight: 2
+weight: 30
 ---
