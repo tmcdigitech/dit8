@@ -1,6 +1,6 @@
 ---
 title: Python
-weight: 1
+weight: 10
 ---
 
 If you are new to Python, check out this [interactive guide](https://aposteriori.trinket.io/introduction-to-python).
