@@ -17,31 +17,33 @@ If using the Mu editor:
 3. Click `Save` and enter a name for the program.
 4. Click `Run`.
 
-{{< figure title="Program 3.1 Hello, world" >}}
-{{< highlight python >}}
+*Program 3.1 Hello, world*
+```python {linenos=table}
 print("Hello world")
 
-# This line is a comment, you dont have to type these!
-{{< /highlight >}}
+# This line is a comment. The computer will ignore these.
+```
 
-3.2. Getting input from the keyboard
-This program will pause and wait for you to enter some text with the keyboard, followed by the return key. The text you enter is stored in a variable, x.
+## 3.2. Getting input from the keyboard
+This program will pause and wait for you to enter some text with the keyboard, followed by the return/enter key. The text you enter is stored in a variable, `x`.
 
-Program 3.2 Getting input from the keyboard
-
+*Program 3.2 Getting input from the keyboard*
+```python {linenos=table}
 print("Enter your name:")
 x = input()
 print("Hello", x)
 if x == "richard":
     print("That is a very cool name")
-Exercise
+```
 
+#### Exercise
 Add some names of your friends and display a different message for each friend.
 
-3.3. Making decisions: if, elif, else
-This is how to add another name to Program 3.2
+## 3.3. Making decisions: if, elif, else
+This is how to add another name to Program 3.2.
 
-Program 3.3 Decisions: if, elif, else
+*Program 3.3 Decisions: if, elif, else*
+{{< highlight python "linenos=table,hl_lines=6-9" >}}
 print("Enter your name:")
 x = input()
 print("Hello", x)
@@ -51,10 +53,13 @@ elif x == "nick":
     print("That is a rubbish name")
 else:
     print("I do not know your name", x)
+{{< /highlight >}}
+
 Program 3.3 is very similar to Program 3.2. The new lines have been highlighted. You can either modify Program 3.2, or else create a new file and use copy and paste to copy the code from the old program into the new.
 
-3.4. A random maths question
-Program 3.4 A random maths question
+## 3.4. A random maths question
+*Program 3.4 A random maths question*
+{{< highlight python "linenos=table" >}}
 import random
 
 n = random.randint(0, 10)
@@ -65,24 +70,23 @@ if g == n + 7:
     print("Correct")
 else:
     print("Wrong")
-Exercise
+{{< /highlight >}}
 
+#### Exercise
 Add some more questions, e.g.
 
-Instead of 7, use another random number.
+- Instead of 7, use another random number.
+- Use a bigger random number.
+- Multiply (use `*`), divide (use `/`) or subtract (use `-`) numbers.
 
-Use a bigger random number.
-
-Multiply (use *), divide (use /) or subtract (use -) numbers.
-
-Exercise
-
+#### Exercise
 Print how many questions the player got correct at the end.
 
-3.5. Keeping score
-We create a score variable to record how many questions the player answered correctly.
+## 3.5. Keeping score
+We create a `score` variable to record how many questions the player answered correctly.
 
-Program 3.5 Keeping score
+*Program 3.5 Keeping score*
+{{< highlight python "linenos=table" >}}
 score = 0
 
 print("What is 1+1 ?")
@@ -98,10 +102,13 @@ if g == 10:
     score = score + 1
 
 print("Your score:", score)
-3.6. Guessing game with a loop
-This while loop goes round and round forever … or until the player gets a correct answer, and then it ``break``s out of the loop. Note that everything in the loop is indented.
+{{< /highlight >}}
 
-Program 3.6 Guessing game with a loop
+## 3.6. Guessing game with a loop
+This `while` loop goes round and round forever … or until the player gets a correct answer, and then it `break`s out of the loop. Note that everything in the loop is indented.
+
+*Program 3.6 Guessing game with a loop*
+{{< highlight python "linenos=table" >}}
 import random
 
 n = random.randint(0, 10)
@@ -114,18 +121,19 @@ while True:
     else:
         print("Wrong")
 print("Correct!")
-Exercise
+{{< /highlight >}}
 
+#### Exercise
 Give a hint to the player when they are wrong. Was their guess too high or too low?
 
-Exercise
-
+#### Exercise
 Print how many guesses they took to get it right at the end.
 
-3.7. Improved guessing game
+## 3.7. Improved guessing game
 Program 3.6 with a hint whether the guess is greater or lesser than the answer.
 
-Program 3.7 GImproved guessing game
+*Program 3.7 Improved guessing game*
+{{< highlight python "linenos=table" >}}
 import random
 
 n = random.randint(0, 100)
@@ -142,3 +150,4 @@ while True:
     elif g > n:
         print("Too high")
 print("Correct! You took", guesses, "guesses.")
+{{< /highlight >}}
