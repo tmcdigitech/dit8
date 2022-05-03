@@ -2,7 +2,7 @@
 title: Drawing graphics
 weight: 30
 ---
-
+*adapted from [Coding Games With Pygame Zero & Python](https://electronstudio.github.io/pygame-zero-book/index.html)*
 To create graphics for our games we will use the Pygame Zero library. You will find the documentation on the website useful!
 
 The smallest square that can be displayed on a monitor is called a pixel. This diagram shows a close-up view of a window that is 40 pixels wide and 40 pixels high. At normal size you will not see the grid lines.
