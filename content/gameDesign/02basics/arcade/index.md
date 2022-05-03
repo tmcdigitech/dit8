@@ -2,7 +2,7 @@
 title: Arcade games
 weight: 40
 ---
-*adapted from [Coding Games With Pygame Zero & Python](https://electronstudio.github.io/pygame-zero-book/index.html)*
+*adapted from [Coding Games with Pygame Zero & Python, by Richard Smith](https://electronstudio.github.io/pygame-zero-book/index.html)*
 ## Keyboard input
 The alien moves when you press the cursor keys.
 
