@@ -106,7 +106,7 @@ We are going to add a background image to Program 4.3.
 
 Click `Images` to see the folder of image files available.
 
-**You must create or download a picture to use a background**. Save it as b`ackground.png` in the directory that opens when you click `Images`. It should be the same size as the window, 500×500 pixels and it must be in `.png` format.
+**You must create or download a picture to use a background**. Save it as `background.png` in the directory that opens when you click `Images`. It should be the same size as the window, 500×500 pixels and it must be in `.png` format.
 
 *Program 4.4 Background*
 ```python {linenos=table}
