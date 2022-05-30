@@ -2,14 +2,9 @@
 title: Drawing graphics
 weight: 30
 ---
-<<<<<<< HEAD
-*adapted from [Coding Games With Pygame Zero & Python](https://electronstudio.github.io/pygame-zero-book/index.html)*
-To create graphics for our games we will use the Pygame Zero library. You will find the documentation on the website useful!
-=======
-*from [Coding Games with Pygame Zero & Python, by Richard Smith](https://electronstudio.github.io/pygame-zero-book/chapters/graphics.html)*
+*adapted from [Coding Games with Pygame Zero & Python, by Richard Smith](https://electronstudio.github.io/pygame-zero-book/chapters/graphics.html)*
 
 To create graphics for our games we will use the [Pygame Zero library](https://pygame-zero.readthedocs.io/en/stable/). You will find the documentation on the website useful!
->>>>>>> 4be90244971de0d0e8568069739b3600c78002cd
 
 The smallest square that can be displayed on a monitor is called a pixel. This diagram shows a close-up view of a window that is 40 pixels wide and 40 pixels high. At normal size you will not see the grid lines.
 
@@ -111,7 +106,7 @@ We are going to add a background image to Program 4.3.
 
 Click `Images` to see the folder of image files available.
 
-**You must create or download a picture to use a background**. Save it as b`ackground.png` in the directory that opens when you click `Images`. It should be the same size as the window, 500×500 pixels and it must be in `.png` format.
+**You must create or download a picture to use a background**. Save it as `background.png` in the directory that opens when you click `Images`. It should be the same size as the window, 500×500 pixels and it must be in `.png` format.
 
 *Program 4.4 Background*
 ```python {linenos=table}
