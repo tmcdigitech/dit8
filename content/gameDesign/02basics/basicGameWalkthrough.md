@@ -11,6 +11,6 @@ This is a nine-part walkthrough to set up a very basic game. Most of the videos 
 4. [Randomise the target](https://web.microsoftstream.com/video/f78493a6-daa8-43af-bdc3-c9347257ec60)
 5. [Collect the target](https://web.microsoftstream.com/video/3ee5eca7-b222-40fa-ad6c-bf1c73a6409e)
 6. [Keep the score](https://web.microsoftstream.com/video/c068db11-0ae4-484c-8b0e-2568f42826e6)
-7. [Display the score](https://web.microsoftstream.com/video/c068db11-0ae4-484c-8b0e-2568f42826e6)
+7. [Display the score](https://web.microsoftstream.com/video/5634a368-fa8a-4c51-8dab-a473ea6fc4f9)
 8. [Make multiple targets](https://web.microsoftstream.com/video/a4a87ba5-c6f4-42cc-884b-4c2605d8d059)
 9. [A comment on comments](https://web.microsoftstream.com/video/3f5b3038-42db-44a0-9aba-5e1fa61c7716)
