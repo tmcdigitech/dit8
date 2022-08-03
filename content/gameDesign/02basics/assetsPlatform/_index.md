@@ -1,5 +1,5 @@
 ---
-title: Sample Assets
+title: Sample Assets (Side)
 weight: 900
 ---
 These are from the [**Platformer Pack Redux**](https://kenney.nl/assets/platformer-pack-redux), available
