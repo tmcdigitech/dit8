@@ -1,6 +1,6 @@
 ---
-title: Task - Animal Quiz
-weight: 25
+title: "1: Animal Quiz"
+weight: 10
 ---
 ![Animal Quiz](title.jpg)
 
