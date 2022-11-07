@@ -1,5 +1,5 @@
 ---
-title: Robotics Explorer Project
+title: "R7: Explorer Project"
 weight: 4
 ---
 

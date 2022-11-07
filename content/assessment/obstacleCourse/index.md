@@ -1,5 +1,5 @@
 ---
-title: Obstacle Course
+title: "R6: Obstacle Course"
 weight: 3
 ---
 
