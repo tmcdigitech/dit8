@@ -1,5 +1,5 @@
 ---
-title: "2: My First 2D Game"
+title: "G2: My First 2D Game"
 weight: 20
 ---
 

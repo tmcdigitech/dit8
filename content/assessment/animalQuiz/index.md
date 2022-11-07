@@ -1,5 +1,5 @@
 ---
-title: "1: Animal Quiz"
+title: "G1: Animal Quiz"
 weight: 10
 ---
 ![Animal Quiz](title.jpg)
