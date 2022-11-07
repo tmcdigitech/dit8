@@ -1,6 +1,6 @@
 ---
 title: "R5: Follow the line"
-weight: 1
+weight: 50
 ---
 
 In teams (of up to 2), design algorithms using flowcharts to create an automated, driverless vehicle that can stop at line and follow a line. Explore how an automated vehicle might be guided along a road or track and how line detection could be used to save lives. Design ways to improve driving safety by helping to prevent drivers from falling asleep and causing an accident.

@@ -1,6 +1,6 @@
 ---
 title: "R6: Obstacle Course"
-weight: 3
+weight: 60
 ---
 
 **In teams of two**, you will design algorithms using flowcharts to create an automated, driverless vehicle that can navigate an obstacle course. You will then adapt your code to use a touch sensor and an ultrasonic sensor to complete the same course, and make comparisons between the solutions.
