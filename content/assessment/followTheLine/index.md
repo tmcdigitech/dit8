@@ -13,6 +13,9 @@ You will need to complete all the following sections as part of your collaborati
     2. Working code with comments
     3. Validation video
 2. Following the line
+    
+    [Getting started guide](followTheLineGuide.pdf)
+    
     1. Design a flowchart for the automated, driverless vehicle to follow a line.
     2. Working code with comments 
     3. Validation video
